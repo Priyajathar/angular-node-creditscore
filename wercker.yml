@@ -32,6 +32,7 @@ deploy-to-oke:
  
     - script:
         name: wait to create namespace
+        
         code: sleep 10
  
     - kubectl:
